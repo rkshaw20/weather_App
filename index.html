@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <input class="input" type="text">
-    <button class="btn">Submit</button>
-    <div>
-
-    <li class="city"></li>
-    <li class="temp"></li>
-    <li class="feels-like"></li>
-    <li class="cloud"></li>
-    <li class="humidity"></li>
-    <li class="sunrise"></li>
-    <li class="sunset"></li>
-    <li class="wind-speed"></li>
-    <li class="wind-degree"></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raj</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="search-bar">
+      <input class="input" type="text" />
+      <button class="btn">Submit</button>
     </div>
-</body>
-<script src="app.js"></script>
+
+    <section class="place-day">
+      <h1> <span class="city"></span></h1>
+      <h2> <span class="today-info"></span> </h2>
+    </section>
+
+    <div class="temperature">
+     <h1> <span class="temp"></span></h1>
+    </div>
+
+    <div class="weather-info">
+      <ul>
+        <p><span> Feels Like:</span> <span class="feels-like"></span></p>
+        <!-- <li><span class="cloud"></span></li> -->
+        <p><span>Humidity:</span> <span class="humidity"></span></p>
+        <p><span>Sunrise:</span><span class="sunrise"></span></p>
+        <p><span>Sunset:</span><span class="sunset"></span></p>
+        <p><span>Wind Speed:</span><span class="wind-speed"></span></p>
+        <p><span>Wind-degree:</span><span class="wind-degree"></span></p>
+      </ul>
+    </div>
+  </body>
+  <script src="app.js"></script>
 </html>
